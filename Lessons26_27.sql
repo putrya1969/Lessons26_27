@@ -36,7 +36,7 @@ DROP COLUMN SexType
 SELECT * FROM Persons
 
 /*
-Using the same person’s table as on the lesson do next: 
+Using the same personâ€™s table as on the lesson do next: 
 select all males
 select all persons with age about 18
 select all persons without address
@@ -67,7 +67,7 @@ HAVING COUNT(Age) > 1
 LESSON 28
 Create few tables schemas:
 */
---table for ‘phone book’
+--table for â€˜phone bookâ€™
 SELECT 
 	TOP 100 
 	p.LastName, 
@@ -88,7 +88,7 @@ CREATE TABLE Schedule
 	Form NVARCHAR(5) NOT NULL
 
 )
---table to store user’s login history
+--table to store userâ€™s login history
 CREATE TABLE LogHistory
 (
     Id INT IDENTITY PRIMARY KEY,
@@ -125,3 +125,4 @@ CREATE TABLE BankTransaction
 	PurposeOfPayment NVARCHAR(250)  NOT NULL,
 	TransactionStatus TINYINT NOT NULL
 )
+--checked
